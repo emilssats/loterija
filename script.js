@@ -9,7 +9,7 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
     let rand = Math.random() * 5;
     rand = Math.floor(rand);
 
-    let uzvaretajs = vardi[rand];
+    let uzvaretajs = cilv[rand];
     rindas.innerHTML += `
     <tr>
     <td>${i + 1}</td>
