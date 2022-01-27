@@ -7,13 +7,8 @@ rand=Math.floor(rand);//noapaļo uz leju, math.floor - noapaļo uz leju
 console.log(cilv[rand]);//izvada konsolē
 
 for(let i=0;<uzvaretajuSkaits;i++){
-    let rand =Math.random()*vardi.length;
+    let rand =Math.random()*5;
     rand = Math.floor(rand);
-    let uzvaretajs = vardi[rand];
-    rindas.innerHTML +=
-
-<tr>
-    <td>${i+1}</td>
-    <td>${uzvaretajs</td>
-</tr>
+    
 }
+console.log(cilv[rand])
