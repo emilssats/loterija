@@ -11,7 +11,7 @@ th, td {
 
 
 th {
-    background-color: #600070;
+    background-color: #d90041;
     color:white;
 }
 
@@ -19,4 +19,11 @@ img{
 display: block;
   margin-left: auto;
   margin-right: auto;
+}
+body{
+background-color: #ebaff0
+}
+h1{
+text-align: center;
+padding: 8px
 }
